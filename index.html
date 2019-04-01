@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+	<head>
+		<title>	Coin Universalis </title>
+
+		<script src = "/client/src/js/socket.io-1.4.5.js" ></script>
+		<script src = "/client/src/js/connection.js"></script>
+
+	</head>
+
+	<body onload = "ClearCache()">
+
+		Maximum Number of Players:<br>
+		<input type = "text" name = "HostField"/>
+
+		<button name = "HostButton" onclick = "HostGameEvent()">Host Game</button> <br> <br>
+
+		GameId:<br>
+		<input type = "text" name = "JoinField"/>
+
+		<button name = "JoinButton" onclick = "JoinGameEvent()">Join Game</button> <br> <br>
+
+		Player Name: <br>
+		<input type = "text" name = "NameField" />
+
+	</body>
+
+</html>

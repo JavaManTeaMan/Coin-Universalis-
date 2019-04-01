@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Coin Universalis </title>
+
+		<script src = "/client/src/js/socket.io-1.4.5.js" ></script>
+		<script src = "/client/src/js/lobby-script.js"></script>
+
+	</head>
+
+	<body>
+		Waiting for all players to ready...
+
+		<button name = "ReadyButton" onclick = "ReadyButtonEvent()"> Ready Up </button>
+		<button name = "UnReadyButton" onclick = "UnReadyButtonEvent()"> Un-Ready </button>
+		<br> <br>
+
+
+		<button name = "PlayerListButton" onclick = "PlayerListButtonEvent()"> Get Player List </button>
+		<button name = "GameInformationButton" onclick = "GameInformationButtonEvent()"> Get Game Information </button>
+		<button name = "DEBUG" onclick = "DebugButtonEvent()"> Debug </button>
+
+		<br>
+		<button name = "DisconnectButton" onclick = "DisconnectButtonEvent()"> Disconnect </button>
+	</body>
+
+</html>
